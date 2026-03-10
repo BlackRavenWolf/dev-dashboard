@@ -1,3 +1,15 @@
+/*
+Developer Intelligence Dashboard
+https://blackravenwolf.github.io/dev-dashboard/
+
+Copyright (c) 2026 Dominique Striekwold
+
+Licensed under the MIT License.
+See the LICENSE file in the repository for details.
+
+This project was created as part of a personal web development learning journey.
+*/
+
 console.log("Developer Intelligence Dashboard starting...");
 
 const dashboard = document.getElementById("dashboard");

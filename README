@@ -1,18 +1,31 @@
+© 2026 Dominique Striekwold
+
 # Developer Intelligence Dashboard
 
-A small learning project that builds a personal **Developer Intelligence Dashboard** using **HTML, CSS, and JavaScript**.
+A small project that builds a personal **Developer Intelligence Dashboard** using **HTML, CSS, and JavaScript**.
 
 The dashboard collects useful developer resources such as news sites, security sources, blogs, tools, documentation, and YouTube channels in one overview.
+
+The goal of this project is twofold:
+
+1. **Learning exercise** while studying web development.
+2. Creating a **personal developer dashboard** that provides a quick and organized overview of important resources used on a daily basis.
 
 Instead of writing all links manually in HTML, the dashboard **generates the sections dynamically using JavaScript** from a structured data object.
 
 This makes the project easier to maintain and expand while learning web development.
 
+The dashboard can be viewed here:
+
+https://blackravenwolf.github.io/dev-dashboard/
+
 ---
 
 # Purpose
 
-This project exists as a **learning exercise** while studying web development.
+This project exists both as a **learning exercise** and as a **practical developer resource dashboard**.
+
+While building this project, the goal was to practice fundamental web development concepts while also creating a tool that provides quick access to important developer resources.
 
 It demonstrates how to:
 
@@ -24,7 +37,7 @@ It demonstrates how to:
 - manipulate the **DOM**
 - debug code using `console.log`
 
-The project also serves as a **personal developer resource dashboard** that can grow over time.
+At the same time, the dashboard serves as a **central overview of useful developer resources** such as news, security updates, documentation, tools, and educational content.
 
 ---
 
@@ -130,6 +143,8 @@ The dashboard currently includes the following resource categories:
 
 All sections are generated **automatically from a JavaScript data object**, making it easy to add or remove resources without editing the HTML.
 
+This approach keeps the dashboard **scalable and maintainable** as more resources are added over time.
+
 ---
 
 # Project Structure
@@ -193,12 +208,12 @@ const devSources = {
 
 The script then:
 
-1. Loops through each category
-2. Creates a dashboard section
-3. Adds the category title
-4. Displays the number of resources
-5. Generates a list of links
-6. Appends everything to the dashboard container
+1. Loops through each category  
+2. Creates a dashboard section  
+3. Adds the category title  
+4. Displays the number of resources  
+5. Generates a list of links  
+6. Appends everything to the dashboard container  
 
 This demonstrates basic **DOM manipulation and dynamic rendering**.
 
@@ -248,3 +263,18 @@ The dashboard is designed to grow as new technologies, tools, and developer reso
 # Author
 
 Created as part of a personal **web development learning journey**.
+
+---
+
+## Attribution
+
+Original project created by **Dominique Striekwold**.
+
+If you reuse significant parts of this code, please provide attribution  
+by linking to the original repository.
+
+---
+
+## License
+
+This project is licensed under the **MIT License** — see the `LICENSE` file for details.
